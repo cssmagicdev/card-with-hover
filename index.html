@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <title>Card With Hover</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -16,114 +12,103 @@
   </head>
   <body>
     <main>
-        <div class="container vh-100 d-flex align-items-center">
-            <div class="d-flex flex-column">
-          <h1 class="text-center mb-5 fw-bold">CSS Magic - Card with hover effect</h1>
-        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-          <div class="col">
-            <div class="card-wrapper text-white">
-              <img
-                src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_640.jpg"
-                alt=""
-                class="card-bg-img"
-              />
-              <div class="card-info">
-                <div class="card-content">
-                  <div class="icon-wrapper text-center">
-                    <i class="bi bi-windows"></i>
-                  </div>
-                  <div class="fs-3 my-2 fw-semibold">Microsoft</div>
-                  <div class="my-3 card-detail">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum, blanditiis!
-                  </div>
-                  <a href="/fuse-hubs/industry-hubs/media/" class="read-more"
-                    >Read More</a
-                  >
+      <div class="container">
+        <h1 class="main-title">CSS Magic - Card with hover effect</h1>
+        <section class="section-wrapper">
+          <div class="card__wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_640.jpg"
+              alt=""
+              class="card__bg-img"
+            />
+            <div class="card__info">
+              <div class="card__content">
+                <div class="card__icon-wrapper">
+                  <i class="bi bi-windows"></i>
                 </div>
+                <div class="card__title">Microsoft</div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum, blanditiis!
+                </div>
+                <a href="/fuse-hubs/industry-hubs/media/" class="card__read-more"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
 
-          <div class="col">
-            <div class="card-wrapper text-white">
-              <img
-                src="https://cdn.pixabay.com/photo/2019/10/29/14/46/landscape-4587079_640.jpg"
-                alt=""
-                class="card-bg-img"
-              />
-              <div class="card-info">
-                <div class="card-content">
-                  <div class="icon-wrapper text-center">
-                    <i class="bi bi-google"></i>
-                  </div>
-                  <div class="fs-3 my-2 fw-semibold">Google</div>
-                  <div class="my-3 card-detail">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum, blanditiis!
-                  </div>
-                  <a href="/fuse-hubs/industry-hubs/media/" class="read-more"
-                    >Read More</a
-                  >
+          <div class="card__wrapper text-white">
+            <img
+              src="https://cdn.pixabay.com/photo/2019/10/29/14/46/landscape-4587079_640.jpg"
+              alt=""
+              class="card__bg-img"
+            />
+            <div class="card__info">
+              <div class="card__content">
+                <div class="card__icon-wrapper">
+                  <i class="bi bi-google"></i>
                 </div>
+                <div class="card__title">Google</div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum, blanditiis!
+                </div>
+                <a href="/fuse-hubs/industry-hubs/media/" class="card__read-more"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
 
-          <div class="col">
-            <div class="card-wrapper text-white">
-              <img
-                src="https://cdn.pixabay.com/photo/2023/01/08/05/52/sunset-7704594_640.jpg"
-                alt=""
-                class="card-bg-img"
-              />
-              <div class="card-info">
-                <div class="card-content">
-                  <div class="icon-wrapper text-center">
-                    <i class="bi bi-amazon"></i>
-                  </div>
-                  <div class="fs-3 my-2 fw-semibold">Amazon</div>
-                  <div class="my-3 card-detail">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum, blanditiis!
-                  </div>
-                  <a href="/fuse-hubs/industry-hubs/media/" class="read-more"
-                    >Read More</a
-                  >
+          <div class="card__wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2023/01/08/05/52/sunset-7704594_640.jpg"
+              alt=""
+              class="card__bg-img"
+            />
+            <div class="card__info">
+              <div class="card__content">
+                <div class="card__icon-wrapper">
+                  <i class="bi bi-amazon"></i>
                 </div>
+                <div class="card__title">Amazon</div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum, blanditiis!
+                </div>
+                <a href="/fuse-hubs/industry-hubs/media/" class="card__read-more"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
 
-          <div class="col">
-            <div class="card-wrapper text-white">
-              <img
-                src="https://cdn.pixabay.com/photo/2019/12/10/10/53/architecture-4685608_640.jpg"
-                alt=""
-                class="card-bg-img"
-              />
-              <div class="card-info">
-                <div class="card-content">
-                  <div class="icon-wrapper text-center">
-                    <i class="bi bi-apple"></i>
-                  </div>
-                  <div class="fs-3 my-2 fw-semibold">Apple</div>
-                  <div class="my-3 card-detail">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolorum, blanditiis!
-                  </div>
-                  <a href="/fuse-hubs/industry-hubs/media/" class="read-more"
-                    >Read More</a
-                  >
+          <div class="card__wrapper">
+            <img
+              src="https://cdn.pixabay.com/photo/2019/12/10/10/53/architecture-4685608_640.jpg"
+              alt=""
+              class="card__bg-img"
+            />
+            <div class="card__info">
+              <div class="card__content">
+                <div class="card__icon-wrapper">
+                  <i class="bi bi-apple"></i>
                 </div>
+                <div class="card__title">Apple</div>
+                <div class="card__description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum, blanditiis!
+                </div>
+                <a href="/fuse-hubs/industry-hubs/media/" class="card__read-more"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
-        </div>
-        </div>
+        </section>
       </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
